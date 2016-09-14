@@ -1,0 +1,6 @@
+framework module Pods_KGGCDWebServerDemoUITests {
+  umbrella header "Pods-KGGCDWebServerDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

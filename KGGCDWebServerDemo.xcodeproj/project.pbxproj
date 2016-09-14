@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010D022BB9089773284BB4A8 /* Pods_KGGCDWebServerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF0993BEA06330A4E3B00FFC /* Pods_KGGCDWebServerDemo.framework */; };
+		95732E1ED516B0B321B5F988 /* Pods_KGGCDWebServerDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7395BC34A997396EF7C14580 /* Pods_KGGCDWebServerDemoUITests.framework */; };
 		9DA1BA1A1D874F1C00C5B8BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1BA191D874F1C00C5B8BA /* AppDelegate.swift */; };
 		9DA1BA1C1D874F1C00C5B8BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1BA1B1D874F1C00C5B8BA /* ViewController.swift */; };
 		9DA1BA1F1D874F1C00C5B8BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA1BA1D1D874F1C00C5B8BA /* Main.storyboard */; };
@@ -14,6 +16,9 @@
 		9DA1BA241D874F1C00C5B8BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DA1BA221D874F1C00C5B8BA /* LaunchScreen.storyboard */; };
 		9DA1BA2F1D874F1C00C5B8BA /* KGGCDWebServerDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1BA2E1D874F1C00C5B8BA /* KGGCDWebServerDemoTests.swift */; };
 		9DA1BA3A1D874F1C00C5B8BA /* KGGCDWebServerDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1BA391D874F1C00C5B8BA /* KGGCDWebServerDemoUITests.swift */; };
+		9DA1BA481D876E6A00C5B8BA /* KGPhotoFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1BA471D876E6A00C5B8BA /* KGPhotoFetcher.swift */; };
+		9DA1BA4A1D877E5900C5B8BA /* KGWebServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA1BA491D877E5900C5B8BA /* KGWebServer.swift */; };
+		E03CF264C27AB5B9D692E78C /* Pods_KGGCDWebServerDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5E76046199E07E2912A076 /* Pods_KGGCDWebServerDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E5E76046199E07E2912A076 /* Pods_KGGCDWebServerDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KGGCDWebServerDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB2FAF4DA01637B8BF216DE /* Pods-KGGCDWebServerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KGGCDWebServerDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KGGCDWebServerDemoTests/Pods-KGGCDWebServerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		322DBDB7FE6774C10A1B5A7C /* Pods-KGGCDWebServerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KGGCDWebServerDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KGGCDWebServerDemoUITests/Pods-KGGCDWebServerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		440C83AE133C7072F8A96B1C /* Pods-KGGCDWebServerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KGGCDWebServerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KGGCDWebServerDemo/Pods-KGGCDWebServerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		594F003F170B4152A6B4E9B5 /* Pods-KGGCDWebServerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KGGCDWebServerDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KGGCDWebServerDemoUITests/Pods-KGGCDWebServerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7395BC34A997396EF7C14580 /* Pods_KGGCDWebServerDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KGGCDWebServerDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		911A826ACC3EB1C39B709E3D /* Pods-KGGCDWebServerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KGGCDWebServerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KGGCDWebServerDemo/Pods-KGGCDWebServerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		9DA1BA161D874F1B00C5B8BA /* KGGCDWebServerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KGGCDWebServerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA1BA191D874F1C00C5B8BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DA1BA1B1D874F1C00C5B8BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,10 @@
 		9DA1BA351D874F1C00C5B8BA /* KGGCDWebServerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KGGCDWebServerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DA1BA391D874F1C00C5B8BA /* KGGCDWebServerDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KGGCDWebServerDemoUITests.swift; sourceTree = "<group>"; };
 		9DA1BA3B1D874F1C00C5B8BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DA1BA471D876E6A00C5B8BA /* KGPhotoFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGPhotoFetcher.swift; sourceTree = "<group>"; };
+		9DA1BA491D877E5900C5B8BA /* KGWebServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGWebServer.swift; sourceTree = "<group>"; };
+		D6864EF4D78F6D119AA808A0 /* Pods-KGGCDWebServerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KGGCDWebServerDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KGGCDWebServerDemoTests/Pods-KGGCDWebServerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		EF0993BEA06330A4E3B00FFC /* Pods_KGGCDWebServerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KGGCDWebServerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010D022BB9089773284BB4A8 /* Pods_KGGCDWebServerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E03CF264C27AB5B9D692E78C /* Pods_KGGCDWebServerDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95732E1ED516B0B321B5F988 /* Pods_KGGCDWebServerDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				9DA1BA2D1D874F1C00C5B8BA /* KGGCDWebServerDemoTests */,
 				9DA1BA381D874F1C00C5B8BA /* KGGCDWebServerDemoUITests */,
 				9DA1BA171D874F1B00C5B8BA /* Products */,
+				B67E5CD91B1C122EC2EF9974 /* Pods */,
+				EFD8D0069C6CEC25CE8193F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +120,8 @@
 			children = (
 				9DA1BA191D874F1C00C5B8BA /* AppDelegate.swift */,
 				9DA1BA1B1D874F1C00C5B8BA /* ViewController.swift */,
+				9DA1BA471D876E6A00C5B8BA /* KGPhotoFetcher.swift */,
+				9DA1BA491D877E5900C5B8BA /* KGWebServer.swift */,
 				9DA1BA1D1D874F1C00C5B8BA /* Main.storyboard */,
 				9DA1BA201D874F1C00C5B8BA /* Assets.xcassets */,
 				9DA1BA221D874F1C00C5B8BA /* LaunchScreen.storyboard */,
@@ -125,6 +148,29 @@
 			path = KGGCDWebServerDemoUITests;
 			sourceTree = "<group>";
 		};
+		B67E5CD91B1C122EC2EF9974 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				440C83AE133C7072F8A96B1C /* Pods-KGGCDWebServerDemo.debug.xcconfig */,
+				911A826ACC3EB1C39B709E3D /* Pods-KGGCDWebServerDemo.release.xcconfig */,
+				2FB2FAF4DA01637B8BF216DE /* Pods-KGGCDWebServerDemoTests.debug.xcconfig */,
+				D6864EF4D78F6D119AA808A0 /* Pods-KGGCDWebServerDemoTests.release.xcconfig */,
+				594F003F170B4152A6B4E9B5 /* Pods-KGGCDWebServerDemoUITests.debug.xcconfig */,
+				322DBDB7FE6774C10A1B5A7C /* Pods-KGGCDWebServerDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFD8D0069C6CEC25CE8193F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF0993BEA06330A4E3B00FFC /* Pods_KGGCDWebServerDemo.framework */,
+				1E5E76046199E07E2912A076 /* Pods_KGGCDWebServerDemoTests.framework */,
+				7395BC34A997396EF7C14580 /* Pods_KGGCDWebServerDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DA1BA3E1D874F1C00C5B8BA /* Build configuration list for PBXNativeTarget "KGGCDWebServerDemo" */;
 			buildPhases = (
+				5C5A66F878278AF30FAEBBC9 /* [CP] Check Pods Manifest.lock */,
 				9DA1BA121D874F1B00C5B8BA /* Sources */,
 				9DA1BA131D874F1B00C5B8BA /* Frameworks */,
 				9DA1BA141D874F1B00C5B8BA /* Resources */,
+				5AD6BFABB02C6EF451CD5B46 /* [CP] Embed Pods Frameworks */,
+				C6AF8B041719142325E6F43E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DA1BA411D874F1C00C5B8BA /* Build configuration list for PBXNativeTarget "KGGCDWebServerDemoTests" */;
 			buildPhases = (
+				F2799D1EF8A71001F48BA4E5 /* [CP] Check Pods Manifest.lock */,
 				9DA1BA261D874F1C00C5B8BA /* Sources */,
 				9DA1BA271D874F1C00C5B8BA /* Frameworks */,
 				9DA1BA281D874F1C00C5B8BA /* Resources */,
+				32E06E0887FF6EE20DDA7F46 /* [CP] Embed Pods Frameworks */,
+				647496358707B8CB351C6969 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DA1BA441D874F1C00C5B8BA /* Build configuration list for PBXNativeTarget "KGGCDWebServerDemoUITests" */;
 			buildPhases = (
+				0A6617745134EF3CC4EC553D /* [CP] Check Pods Manifest.lock */,
 				9DA1BA311D874F1C00C5B8BA /* Sources */,
 				9DA1BA321D874F1C00C5B8BA /* Frameworks */,
 				9DA1BA331D874F1C00C5B8BA /* Resources */,
+				D6E4877F8026A2A304289071 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +305,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A6617745134EF3CC4EC553D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		32E06E0887FF6EE20DDA7F46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KGGCDWebServerDemoTests/Pods-KGGCDWebServerDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AD6BFABB02C6EF451CD5B46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KGGCDWebServerDemo/Pods-KGGCDWebServerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C5A66F878278AF30FAEBBC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		647496358707B8CB351C6969 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KGGCDWebServerDemoTests/Pods-KGGCDWebServerDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6AF8B041719142325E6F43E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KGGCDWebServerDemo/Pods-KGGCDWebServerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6E4877F8026A2A304289071 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KGGCDWebServerDemoUITests/Pods-KGGCDWebServerDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2799D1EF8A71001F48BA4E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9DA1BA121D874F1B00C5B8BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9DA1BA1C1D874F1C00C5B8BA /* ViewController.swift in Sources */,
+				9DA1BA481D876E6A00C5B8BA /* KGPhotoFetcher.swift in Sources */,
 				9DA1BA1A1D874F1C00C5B8BA /* AppDelegate.swift in Sources */,
+				9DA1BA4A1D877E5900C5B8BA /* KGWebServer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +578,7 @@
 		};
 		9DA1BA3F1D874F1C00C5B8BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 440C83AE133C7072F8A96B1C /* Pods-KGGCDWebServerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KGGCDWebServerDemo/Info.plist;
@@ -410,6 +590,7 @@
 		};
 		9DA1BA401D874F1C00C5B8BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 911A826ACC3EB1C39B709E3D /* Pods-KGGCDWebServerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = KGGCDWebServerDemo/Info.plist;
@@ -421,6 +602,7 @@
 		};
 		9DA1BA421D874F1C00C5B8BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FB2FAF4DA01637B8BF216DE /* Pods-KGGCDWebServerDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = KGGCDWebServerDemoTests/Info.plist;
@@ -433,6 +615,7 @@
 		};
 		9DA1BA431D874F1C00C5B8BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6864EF4D78F6D119AA808A0 /* Pods-KGGCDWebServerDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = KGGCDWebServerDemoTests/Info.plist;
@@ -445,6 +628,7 @@
 		};
 		9DA1BA451D874F1C00C5B8BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 594F003F170B4152A6B4E9B5 /* Pods-KGGCDWebServerDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = KGGCDWebServerDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -456,6 +640,7 @@
 		};
 		9DA1BA461D874F1C00C5B8BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 322DBDB7FE6774C10A1B5A7C /* Pods-KGGCDWebServerDemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = KGGCDWebServerDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -484,6 +669,7 @@
 				9DA1BA401D874F1C00C5B8BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DA1BA411D874F1C00C5B8BA /* Build configuration list for PBXNativeTarget "KGGCDWebServerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +678,7 @@
 				9DA1BA431D874F1C00C5B8BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DA1BA441D874F1C00C5B8BA /* Build configuration list for PBXNativeTarget "KGGCDWebServerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +687,7 @@
 				9DA1BA461D874F1C00C5B8BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
